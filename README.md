@@ -38,3 +38,17 @@ It introduces a **systematic training framework** for RBMs that includes:
 - Balanced class distribution between normal and malicious data  
 
 ---
+
+### 💻 Implementation in This Repository
+
+This repository now includes a full implementation based on the ideas discussed in the paper.  
+The workflow combines **unsupervised feature learning using RBMs** with downstream classification:
+
+**What the code includes:**
+
+- RBM trained on a network intrusion dataset (Kaggle)
+- Latent representation learning from raw network traffic
+- **RBM → SVM hybrid pipeline** for binary classification (normal vs attack)
+- Hyperparameter tuning using `RandomizedSearchCV`
+
+  ---
