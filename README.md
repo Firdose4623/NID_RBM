@@ -38,11 +38,3 @@ It introduces a **systematic training framework** for RBMs that includes:
 - Balanced class distribution between normal and malicious data  
 
 ---
-
-## Coming Soon
-
-- Python implementation of RBM-based Intrusion Detection  
-- Data preprocessing and visualization scripts  
-- Experimental results reproduction using modern frameworks
-
-  ---
